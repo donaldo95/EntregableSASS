@@ -1,0 +1,40 @@
+#mainTitle {
+    text-align: center;
+    margin: 5%;
+    animation-name: slidein;
+    animation-duration: 3s;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.navbar-nav a:hover {
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.prods img {
+    filter: blur(0);
+    animation-name: imgBlur;
+    animation-duration: 3s;
+    .prods img:hover {
+        border-radius: 15px;
+        transition: 1s;
+        cursor: pointer;
+        transform: scale(1.2);
+        outline: solid 2px black;
+      }
+  }
+
+  #services {
+    padding: 60px 50px;
+}
+
+  #contact {
+    padding: 60px 50px;
+  }
+
+  hr {
+    margin: 10px;
+    &solid {
+        border-top: 1px solid rgb(161, 161, 161);
+    }
+}
