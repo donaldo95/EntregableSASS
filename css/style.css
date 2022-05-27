@@ -1,8 +1,10 @@
+/* line 1, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_main.scss */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Bangers'; }
 
+/* line 1, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
 #mainTitle {
   text-align: center;
   margin: 5%;
@@ -10,14 +12,17 @@
   animation-duration: 3s;
   text-shadow: 2px 2px 2px #000000; }
 
+/* line 9, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
 .navbar-nav a:hover {
   transform: scale(1.2);
   font-weight: bold; }
 
+/* line 14, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
 .prods img {
   filter: blur(0);
   animation-name: imgBlur;
   animation-duration: 3s; }
+  /* line 18, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
   .prods img .prods img:hover {
     border-radius: 15px;
     transition: 1s;
@@ -25,14 +30,19 @@
     transform: scale(1.2);
     outline: solid 2px black; }
 
+/* line 27, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
 #services {
-  padding: 60px 50px; }
+  padding: 60px 50px;
+  margin: 10px; }
 
+/* line 32, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
 #contact {
   padding: 60px 50px; }
 
+/* line 36, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
 hr {
   margin: 10px; }
+  /* line 38, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_estructura.scss */
   hrsolid {
     border-top: 1px solid #a1a1a1; }
 
@@ -54,11 +64,20 @@ hr {
   to {
     filter: blur(0); } }
 
+/* line 3, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_fondos.scss */
 nav {
   background-color: rgba(201, 0, 0, 0.3); }
 
+/* line 7, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_fondos.scss */
 .bg-grey {
   background-color: #f6f6f6; }
 
+/* line 11, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_fondos.scss */
 #mainTitle {
   color: white; }
+
+/* line 15, D:/Usuarios/Documentos/CoderHouse/Entregables/EntregableSASS/scss/_fondos.scss */
+section {
+  background-color: #f6f6f6; }
+
+/*# sourceMappingURL=style.css.map */
